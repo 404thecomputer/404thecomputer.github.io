@@ -24,3 +24,8 @@ header nav {
 #top {
   background-color: yellow;
 }
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
