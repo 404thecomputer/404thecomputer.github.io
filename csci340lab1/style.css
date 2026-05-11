@@ -6,6 +6,7 @@ body {
 header {
   padding: 20px 0;
   background-color: #1a1a1a;
+  margin: 0;
 }
 
 header .row,
@@ -70,6 +71,7 @@ section .row img {
 footer {
   font-size: 12px;
   padding: 20px 20px;
+  margin: 0;
   background-color: #1a1a1a;
 }
 
