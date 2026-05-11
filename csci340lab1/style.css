@@ -1,14 +1,18 @@
 body {
     font-family: 'Fjalla One';
+    background-color: #ebe134;
 }
 
 header {
   padding: 20px 0;
 }
 
-header .row {
+header .row,
+footer .row {
   display: flex;
   align-items: center;
+  background-color: #1a1a1a;
+  color: white;
 }
 
 header h1 {
@@ -21,11 +25,31 @@ header nav {
   justify-content: flex-end;
 }
 
-#top {
-  background-color: yellow;
+header p {
+  padding: 0 20px;
+  margin: 0;
 }
 
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
