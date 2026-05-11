@@ -5,14 +5,15 @@ body {
 
 header {
   padding: 20px 0;
+  background-color: #1a1a1a;
 }
 
 header .row,
 footer .row {
   display: flex;
   align-items: center;
-  background-color: #1a1a1a;
   color: white;
+  background-color: #1a1a1a;
 }
 
 header h1 {
@@ -26,7 +27,7 @@ header nav {
 }
 
 header p {
-  padding: 0 20px;
+  padding: 20px 20px;
   margin: 0;
 }
 
@@ -62,12 +63,14 @@ header p {
 
 section .row img {
   margin: 0 0 30px;
+  padding: 0 20px;
   width: 100%;
 }
 
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  padding: 20px 20px;
+  background-color: #1a1a1a;
 }
 
 footer .col-sm-8 {
@@ -80,6 +83,6 @@ footer ul {
 }
 
 footer li img {
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
 }
