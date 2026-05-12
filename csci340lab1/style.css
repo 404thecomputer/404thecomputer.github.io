@@ -57,7 +57,12 @@ header p {
   color: white;
 }
 
-#coltext {
+#coltext1 {
+  border: 1px solid #000;
+  background-color: white;
+}
+
+#coltext2 {
   border: 1px solid #000;
   background-color: white;
 }
